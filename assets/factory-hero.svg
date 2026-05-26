@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="960" viewBox="0 0 1600 960" role="img" aria-labelledby="title desc">
+  <title id="title">现代门厂生产线</title>
+  <desc id="desc">带有生产设备、门板和仓储区域的门厂示意图</desc>
+  <defs>
+    <linearGradient id="wall" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#e8ecef"/>
+      <stop offset="1" stop-color="#bfc7cd"/>
+    </linearGradient>
+    <linearGradient id="floor" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#7b858e"/>
+      <stop offset=".5" stop-color="#a3abb1"/>
+      <stop offset="1" stop-color="#69737c"/>
+    </linearGradient>
+    <linearGradient id="wood" x1="0" x2="1">
+      <stop offset="0" stop-color="#8b542e"/>
+      <stop offset=".55" stop-color="#c98a45"/>
+      <stop offset="1" stop-color="#6f3f24"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="960" fill="#d9dee1"/>
+  <path d="M0 0h1600v560H0z" fill="url(#wall)"/>
+  <path d="M0 560h1600v400H0z" fill="url(#floor)"/>
+  <path d="M0 560h1600v52H0z" fill="#475663"/>
+  <g opacity=".34" stroke="#ffffff" stroke-width="8">
+    <path d="M110 80h1380M110 170h1380M110 260h1380M110 350h1380"/>
+    <path d="M190 35v430M520 35v430M850 35v430M1180 35v430M1450 35v430"/>
+  </g>
+  <g fill="#314250">
+    <rect x="1140" y="210" width="260" height="350" rx="8"/>
+    <rect x="1170" y="250" width="200" height="270" fill="#52616d"/>
+    <rect x="1210" y="290" width="120" height="28" fill="#d89844"/>
+    <rect x="1210" y="340" width="120" height="28" fill="#d89844"/>
+    <rect x="1210" y="390" width="120" height="28" fill="#d89844"/>
+  </g>
+  <g>
+    <rect x="625" y="188" width="210" height="385" rx="8" fill="#26323c"/>
+    <rect x="650" y="218" width="160" height="325" fill="url(#wood)"/>
+    <path d="M686 230v300M744 230v300" stroke="#5c321d" stroke-width="5" opacity=".4"/>
+    <circle cx="780" cy="382" r="9" fill="#d8dee6"/>
+  </g>
+  <g>
+    <rect x="885" y="158" width="190" height="415" rx="8" fill="#202b34"/>
+    <rect x="910" y="190" width="140" height="350" fill="#9e3f35"/>
+    <path d="M930 220h100v290H930z" fill="#b7594d" opacity=".55"/>
+    <circle cx="1028" cy="370" r="8" fill="#e8ecef"/>
+  </g>
+  <g>
+    <rect x="290" y="258" width="245" height="300" rx="8" fill="#32414c"/>
+    <rect x="320" y="290" width="185" height="235" fill="#e7dfd4"/>
+    <path d="M350 323h125M350 373h125M350 423h125M350 473h125" stroke="#a96632" stroke-width="9" opacity=".6"/>
+  </g>
+  <g fill="#1f2933">
+    <rect x="150" y="620" width="1220" height="28" rx="14"/>
+    <rect x="210" y="648" width="48" height="82"/>
+    <rect x="590" y="648" width="48" height="82"/>
+    <rect x="970" y="648" width="48" height="82"/>
+    <circle cx="340" cy="690" r="42" fill="#313d47"/>
+    <circle cx="760" cy="690" r="42" fill="#313d47"/>
+    <circle cx="1180" cy="690" r="42" fill="#313d47"/>
+  </g>
+  <g opacity=".55">
+    <path d="M0 835c248-68 438-68 648 0s407 70 625 2 327-58 327-58v181H0z" fill="#41505f"/>
+  </g>
+</svg>

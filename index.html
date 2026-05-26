@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>安达门业 | 门厂简介测试版</title>
+  <meta name="description" content="安达门业本地测试版简介网页，展示企业简介、产品系列、工厂优势、定制流程与联系方式。">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header" data-header>
+    <a class="brand" href="#top" aria-label="安达门业首页">
+      <span class="brand-mark">A</span>
+      <span>安达门业</span>
+    </a>
+
+    <button class="menu-toggle" type="button" aria-label="打开导航菜单" aria-expanded="false" data-menu-toggle>
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="site-nav" aria-label="主导航" data-nav>
+      <a href="#about">企业简介</a>
+      <a href="#products">产品系列</a>
+      <a href="#strength">工厂优势</a>
+      <a href="#process">定制流程</a>
+      <a href="#contact">联系方式</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-label="安达门业简介">
+      <img class="hero-media" src="assets/factory-hero.svg" alt="现代门厂生产线与门板展示">
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <p class="eyebrow">门类定制 · 工程配套 · 本地交付</p>
+        <h1>安达门业</h1>
+        <p class="hero-copy">专注入户门、室内门、防火门与工程门配套，用稳定工艺和清晰流程服务家装、门店与工程项目。</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#products">查看产品</a>
+          <a class="button secondary" href="#contact">联系咨询</a>
+        </div>
+      </div>
+      <div class="hero-facts" aria-label="核心数据">
+        <div>
+          <strong>4</strong>
+          <span>主营门类</span>
+        </div>
+        <div>
+          <strong>1站式</strong>
+          <span>测量到安装</span>
+        </div>
+        <div>
+          <strong>本地</strong>
+          <span>快速响应</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section intro-section" id="about">
+      <div class="section-inner two-column">
+        <div>
+          <p class="section-kicker">ABOUT ANDA</p>
+          <h2>面向本地家装与工程客户的门厂</h2>
+          <p class="lead">安达门业以门类生产、定制加工和现场安装服务为核心，围绕住宅、商铺、办公与工程空间，提供稳定可靠的门类解决方案。</p>
+        </div>
+        <div class="intro-copy">
+          <p>测试版网页先以标准企业简介呈现，方便后续替换真实照片、资质证书、案例项目与联系方式。页面重点突出产品范围、生产能力、交付流程和咨询入口。</p>
+          <div class="tag-list" aria-label="服务标签">
+            <span>来样定制</span>
+            <span>尺寸复核</span>
+            <span>工厂直供</span>
+            <span>安装对接</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section products-section" id="products">
+      <div class="section-inner">
+        <div class="section-heading">
+          <p class="section-kicker">PRODUCTS</p>
+          <h2>产品系列</h2>
+          <p>按常见业务场景整理，测试版内容可直接替换为真实型号、材质、颜色和报价说明。</p>
+        </div>
+
+        <div class="product-tabs" role="tablist" aria-label="产品分类">
+          <button class="tab-button is-active" type="button" role="tab" aria-selected="true" data-product="entry">入户门</button>
+          <button class="tab-button" type="button" role="tab" aria-selected="false" data-product="interior">室内门</button>
+          <button class="tab-button" type="button" role="tab" aria-selected="false" data-product="fire">防火门</button>
+          <button class="tab-button" type="button" role="tab" aria-selected="false" data-product="project">工程门</button>
+        </div>
+
+        <div class="product-panel" data-product-panel>
+          <img src="assets/door-entry.svg" alt="入户门产品示意">
+          <div>
+            <p class="panel-label">当前推荐</p>
+            <h3>入户安全门</h3>
+            <p>适合住宅、门店与公寓入口，兼顾安全、防护和外观统一。可按洞口尺寸、颜色、锁具与门套要求定制。</p>
+            <ul>
+              <li>支持常规尺寸与非标尺寸</li>
+              <li>可选木纹、金属灰、深色系饰面</li>
+              <li>适配指纹锁、机械锁等常见方案</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="product-grid" aria-label="产品概览">
+          <article class="product-card">
+            <img src="assets/door-entry.svg" alt="入户门示意">
+            <h3>入户门</h3>
+            <p>重视安全、防盗、隔音与门面质感，适合住宅与商铺入口。</p>
+          </article>
+          <article class="product-card">
+            <img src="assets/door-interior.svg" alt="室内门示意">
+            <h3>室内门</h3>
+            <p>覆盖卧室、书房、办公隔间，支持多种纹理和颜色搭配。</p>
+          </article>
+          <article class="product-card">
+            <img src="assets/door-fire.svg" alt="防火门示意">
+            <h3>防火门</h3>
+            <p>面向楼道、机房、仓储等空间，便于工程批量配套。</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section strength-section" id="strength">
+      <div class="section-inner">
+        <div class="section-heading">
+          <p class="section-kicker">FACTORY STRENGTH</p>
+          <h2>工厂优势</h2>
+        </div>
+        <div class="strength-grid">
+          <article class="strength-item">
+            <span class="icon-chip">01</span>
+            <h3>生产加工稳定</h3>
+            <p>围绕门板、门套、五金和表面处理建立标准流程，减少尺寸误差与交付反复。</p>
+          </article>
+          <article class="strength-item">
+            <span class="icon-chip">02</span>
+            <h3>定制沟通清晰</h3>
+            <p>从尺寸、开启方向、颜色、锁具到安装条件逐项确认，降低现场返工风险。</p>
+          </article>
+          <article class="strength-item">
+            <span class="icon-chip">03</span>
+            <h3>本地响应快速</h3>
+            <p>适合本地客户看样、复尺、送货与安装对接，问题反馈更直接。</p>
+          </article>
+          <article class="strength-item">
+            <span class="icon-chip">04</span>
+            <h3>工程配套友好</h3>
+            <p>可按楼栋、楼层、户型和批次整理交付清单，便于项目管理。</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section process-section" id="process">
+      <div class="section-inner">
+        <div class="section-heading">
+          <p class="section-kicker">PROCESS</p>
+          <h2>定制流程</h2>
+        </div>
+        <div class="process-line">
+          <article>
+            <span>1</span>
+            <h3>沟通需求</h3>
+            <p>确认门类、数量、预算、风格与使用场景。</p>
+          </article>
+          <article>
+            <span>2</span>
+            <h3>测量复核</h3>
+            <p>记录洞口尺寸、墙体厚度和开启方向。</p>
+          </article>
+          <article>
+            <span>3</span>
+            <h3>生产排期</h3>
+            <p>确认材质、颜色、五金和交付时间。</p>
+          </article>
+          <article>
+            <span>4</span>
+            <h3>送装验收</h3>
+            <p>完成送货、安装对接与现场检查。</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section cases-section" id="cases">
+      <div class="section-inner">
+        <div class="section-heading">
+          <p class="section-kicker">SCENES</p>
+          <h2>适用场景</h2>
+        </div>
+        <div class="case-grid">
+          <article class="case-card">
+            <img src="assets/scene-home.svg" alt="住宅门类场景示意">
+            <div>
+              <h3>住宅家装</h3>
+              <p>入户门、卧室门、卫生间门统一搭配。</p>
+            </div>
+          </article>
+          <article class="case-card">
+            <img src="assets/scene-project.svg" alt="工程门类场景示意">
+            <div>
+              <h3>工程配套</h3>
+              <p>公寓、办公、楼道、防火分区批量供货。</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="section-inner contact-layout">
+        <div>
+          <p class="section-kicker">CONTACT</p>
+          <h2>联系安达门业</h2>
+          <p class="lead">以下为测试版占位信息。正式上线前可替换为真实电话、地址、微信二维码和营业时间。</p>
+          <div class="contact-list">
+            <p><strong>电话：</strong>138-0000-0000（待替换）</p>
+            <p><strong>地址：</strong>本地门厂地址待补充</p>
+            <p><strong>服务：</strong>测量、定制、生产、送货、安装对接</p>
+          </div>
+        </div>
+        <div class="qr-box" aria-label="微信二维码占位">
+          <div class="qr-pattern"></div>
+          <p>微信二维码占位</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 安达门业 · 本地测试版</p>
+    <a href="#top">返回顶部</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

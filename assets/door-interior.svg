@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="720" viewBox="0 0 720 720" role="img" aria-labelledby="title">
+  <title id="title">室内门示意</title>
+  <rect width="720" height="720" fill="#eef1ef"/>
+  <rect x="190" y="88" width="340" height="558" rx="10" fill="#d7d0c6"/>
+  <rect x="222" y="122" width="276" height="492" rx="5" fill="#efe7dc"/>
+  <path d="M260 165h200v410H260z" fill="#f7efe4"/>
+  <path d="M286 198h148v100H286zM286 337h148v102H286zM286 477h148v58H286z" fill="#d8b489" opacity=".48"/>
+  <path d="M260 165h200M260 575h200M260 165v410M460 165v410" stroke="#c4a986" stroke-width="7"/>
+  <circle cx="432" cy="366" r="10" fill="#a96632"/>
+  <rect x="112" y="646" width="496" height="16" rx="8" fill="#c6ccd2"/>
+</svg>

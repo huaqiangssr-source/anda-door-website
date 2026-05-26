@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="720" viewBox="0 0 720 720" role="img" aria-labelledby="title">
+  <title id="title">防火门示意</title>
+  <rect width="720" height="720" fill="#f1f4f2"/>
+  <rect x="180" y="82" width="360" height="566" rx="10" fill="#26323c"/>
+  <rect x="212" y="116" width="296" height="498" rx="4" fill="#9e3f35"/>
+  <path d="M244 156h232v418H244z" fill="#b84f45"/>
+  <path d="M244 156h232M244 574h232M244 156v418M476 156v418" stroke="#7b2e29" stroke-width="8" opacity=".6"/>
+  <rect x="278" y="198" width="164" height="44" rx="6" fill="#f3d08b"/>
+  <path d="M330 218h60" stroke="#7b2e29" stroke-width="10" stroke-linecap="round"/>
+  <rect x="418" y="340" width="42" height="96" rx="18" fill="#1f2933"/>
+  <circle cx="431" cy="378" r="8" fill="#d8dee6"/>
+  <path d="M150 646h420" stroke="#cfd5dc" stroke-width="16" stroke-linecap="round"/>
+</svg>

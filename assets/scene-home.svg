@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560" viewBox="0 0 900 560" role="img" aria-labelledby="title">
+  <title id="title">住宅门类场景</title>
+  <rect width="900" height="560" fill="#f3f0eb"/>
+  <rect x="0" y="370" width="900" height="190" fill="#d9d0c4"/>
+  <rect x="90" y="72" width="300" height="410" fill="#e9dfd2"/>
+  <rect x="130" y="118" width="220" height="364" fill="#a96632"/>
+  <path d="M166 156h148v286H166z" fill="#c38445" opacity=".55"/>
+  <circle cx="314" cy="302" r="9" fill="#202b34"/>
+  <rect x="480" y="112" width="300" height="284" rx="8" fill="#52616d"/>
+  <rect x="510" y="140" width="240" height="228" fill="#dbe2e6"/>
+  <path d="M0 496h900" stroke="#aeb7be" stroke-width="12"/>
+  <rect x="510" y="430" width="210" height="42" rx="8" fill="#41505f"/>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560" viewBox="0 0 900 560" role="img" aria-labelledby="title">
+  <title id="title">工程门类场景</title>
+  <rect width="900" height="560" fill="#e8ecef"/>
+  <rect x="0" y="404" width="900" height="156" fill="#a6afb7"/>
+  <rect x="84" y="80" width="732" height="360" rx="8" fill="#41505f"/>
+  <rect x="122" y="122" width="154" height="282" fill="#9e3f35"/>
+  <rect x="316" y="122" width="154" height="282" fill="#a96632"/>
+  <rect x="510" y="122" width="154" height="282" fill="#e7dfd4"/>
+  <rect x="704" y="122" width="70" height="282" fill="#667085"/>
+  <g fill="#d8dee6">
+    <circle cx="250" cy="262" r="8"/>
+    <circle cx="444" cy="262" r="8"/>
+    <circle cx="638" cy="262" r="8"/>
+  </g>
+  <path d="M70 448h760" stroke="#667085" stroke-width="14" stroke-linecap="round"/>
+</svg>
